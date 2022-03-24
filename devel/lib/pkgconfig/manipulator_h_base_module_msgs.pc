@@ -1,0 +1,8 @@
+prefix=/home/DesktopFer/ratePosPaper/devel
+
+Name: manipulator_h_base_module_msgs
+Description: Description of manipulator_h_base_module_msgs
+Version: 0.3.1
+Cflags: -I/home/DesktopFer/ratePosPaper/devel/include
+Libs: -L${prefix}/lib 
+Requires: std_msgs geometry_msgs message_runtime

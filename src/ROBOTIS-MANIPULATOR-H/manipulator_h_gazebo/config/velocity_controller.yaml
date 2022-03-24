@@ -1,0 +1,36 @@
+robotis_manipulator_h:
+  # Publish all joint states -----------------------------------
+  joint_state_controller:
+    type: joint_state_controller/JointStateController
+    publish_rate: 125  
+  
+  # Position Controllers ---------------------------------------
+  joint1_velocity:
+    type: effort_controllers/JointVelocityController
+    joint: joint1
+    pid: {p: 399, i: 14, d: 0}
+
+  joint2_velocity:
+    type: effort_controllers/JointVelocityController
+    joint: joint2
+    pid: {p: 399, i: 14, d: 0}
+
+  joint3_velocity:
+    type: effort_controllers/JointVelocityController
+    joint: joint3
+    pid: {p: 256, i: 16, d: 0}
+
+  joint4_velocity:
+    type: effort_controllers/JointVelocityController
+    joint: joint4
+    pid: {p: 256, i: 16, d: 0}
+
+  joint5_velocity:
+    type: effort_controllers/JointVelocityController
+    joint: joint5
+    pid: {p: 440, i: 40, d: 0}
+
+  joint6_velocity:
+    type: effort_controllers/JointVelocityController
+    joint: joint6
+    pid: {p: 440, i: 40, d: 0}

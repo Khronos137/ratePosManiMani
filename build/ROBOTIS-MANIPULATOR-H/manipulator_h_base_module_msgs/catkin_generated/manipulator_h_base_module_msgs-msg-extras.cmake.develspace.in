@@ -1,0 +1,2 @@
+set(manipulator_h_base_module_msgs_MESSAGE_FILES "/home/DesktopFer/ratePosPaper/src/ROBOTIS-MANIPULATOR-H/manipulator_h_base_module_msgs/msg/JointPose.msg;/home/DesktopFer/ratePosPaper/src/ROBOTIS-MANIPULATOR-H/manipulator_h_base_module_msgs/msg/KinematicsPose.msg")
+set(manipulator_h_base_module_msgs_SERVICE_FILES "/home/DesktopFer/ratePosPaper/src/ROBOTIS-MANIPULATOR-H/manipulator_h_base_module_msgs/srv/GetJointPose.srv;/home/DesktopFer/ratePosPaper/src/ROBOTIS-MANIPULATOR-H/manipulator_h_base_module_msgs/srv/GetKinematicsPose.srv")

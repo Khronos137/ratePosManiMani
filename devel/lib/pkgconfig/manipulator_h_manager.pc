@@ -1,0 +1,8 @@
+prefix=/home/DesktopFer/ratePosPaper/devel
+
+Name: manipulator_h_manager
+Description: Description of manipulator_h_manager
+Version: 0.3.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp robotis_controller manipulator_h_base_module

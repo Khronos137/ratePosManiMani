@@ -1,0 +1,8 @@
+prefix=/home/DesktopFer/ratePosPaper/install
+
+Name: manipulator_h_kinematics_dynamics
+Description: Description of manipulator_h_kinematics_dynamics
+Version: 0.3.1
+Cflags: -I${prefix}/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib -lmanipulator_h_kinematics_dynamics
+Requires: roscpp robotis_math cmake_modules
